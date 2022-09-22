@@ -59,7 +59,7 @@ export const CalendarPage = () => {
       <Navbar />
 
       <Calendar
-      culture='es'
+        culture='es'
         localizer={ localizer }
         events={ events }
         defaultView={ lastView }
@@ -75,7 +75,6 @@ export const CalendarPage = () => {
         onSelectEvent={ onSelect }
         onView= { onViewChanged }
       />
-
 
       <CalendarModal />
 
